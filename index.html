@@ -25,10 +25,10 @@
          <h1 class="welcome-header__title">Welcome to KoKoaTalk</h1>
          <p class="welcome-header__text"> If you have a KoKoa Account,<br/> log in with your email or phone number.</p>
       </header>
-      <form id="login-form">
-           <input type="text" placeholder="Email or phone number" />
-           <input type="password" placeholder="Password" />
-           <input type="submit" value="Log In" />
+      <form action="friends.html" method="GET" id="login-form">
+           <input name="username" required type="text" placeholder="Email or phone number" />
+           <input name="password" required type="password" placeholder="Password" />
+           <input type="submit"  value="Log In" />
            <a href="#">Find Kokoa Account or Password</a>
       </form>
       
