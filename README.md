@@ -1,4 +1,4 @@
 # Kokoa Clone
 
 Hello
-anh nyeong ha sae yo
+ahn nyeong ha sae yo
