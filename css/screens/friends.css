@@ -24,12 +24,12 @@
 .friends-screen__channel {
   margin-top: 20px;
   padding-top: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: var(--main-border);
 }
 
 .friends-screen__channel-header {
   font-weight: 600;
-  opacity: 0.5;
+  color: var(--gray);
   margin-bottom: 25px;
   display: flex;
   justify-content: space-between;

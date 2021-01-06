@@ -1,0 +1,137 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.find-icons__icon span {
+  margin-top: 20px;
+}
+
+.option-noti {
+  display: block;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  right: 20px;
+  top: 45px;
+}
+
+.recommended-friends {
+  padding: 20px 0px;
+  margin: 20px 0px;
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+}
+
+.recommended-friends__title {
+  color: var(--gray);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  color: var(--gray);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--gray);
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.open-chat__header span {
+  opacity: 0.5;
+}
+
+.open-post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.open-post__title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.open-post__hashtags {
+  color: var(--gray);
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  color: var(--gray);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.open-post__members img {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.open-post__members .divider {
+  width: 2px;
+  height: 15px;
+  background-color: var(--gray);
+  margin: 0px 5px;
+}
+
+.open-post__member-status {
+  color: #ffb0e0;
+}
+
+.open-post__photo img {
+  height: 105px;
+  width: 105px;
+  border-radius: 10px;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__heart-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  bottom: 8px;
+  right: 8px;
+  font-size: 14px;
+  width: 55px;
+  height: 22px;
+}
+
+.open-post__heart-count span {
+  margin-left: 5px;
+}
