@@ -24,5 +24,6 @@ body {
 }
 
 .main-screen {
-  margin: 0px var(--horizontal-space);
+  margin-left: var(--horizontal-space);
+  margin-right: var(--horizontal-space);
 }
