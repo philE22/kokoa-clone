@@ -172,16 +172,17 @@
 .chat__timestamp {
   opacity: 0;
   animation: fadeIn 1s forwards;
+  animation-delay: 0.5s;
 }
 
 .message-row {
   opacity: 0;
   animation: fadeIn 1s forwards;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
 
 .message-row--own {
-  animation-delay: 2.5s;
+  animation-delay: 3s;
 }
 
 .reply:focus-within .reply__column:first-child,

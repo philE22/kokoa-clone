@@ -10,6 +10,7 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/mobile-only.css";
+@import "components/fade-in-screen.css";
 
 /*screens*/
 @import "screens/login.css";
