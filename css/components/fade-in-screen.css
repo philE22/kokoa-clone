@@ -1,0 +1,41 @@
+.fade-in-screen {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0;
+  animation: fadeInScreen 0.5s linear forwards;
+  position: absolute;
+  z-index: 99;
+}
+
+@keyframes fadeInScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.fade-in-screen__chat {
+  background-color: #abc1d1;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0;
+  animation: fadeInScreenChat 0.5s linear forwards;
+  position: absolute;
+  z-index: 99;
+}
+
+@keyframes fadeInScreenChat {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
